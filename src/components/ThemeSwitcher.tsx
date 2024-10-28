@@ -1,4 +1,4 @@
-// Borrowed from Sui dApp Starter https://github.com/kkomelin/sui-dapp-starter
+// Borrowed from Sui dApp Starter https://github.com/suiware/sui-dapp-starter
 
 import * as Toggle from '@radix-ui/react-toggle'
 import { Badge } from '@radix-ui/themes'

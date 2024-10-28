@@ -1,4 +1,4 @@
-// Borrowed from Sui dApp Starter https://github.com/kkomelin/sui-dapp-starter
+// Borrowed from Sui dApp Starter https://github.com/suiware/sui-dapp-starter
 import { ThemeVars } from '@mysten/dapp-kit'
 import Color from 'color'
 

@@ -46,7 +46,7 @@ const IndexPage = observer(() => {
       <div className="-mr-5 mb-0 mt-6 flex flex-col items-center justify-center">
         <iframe
           className="overflow-hidden border-none"
-          src="https://ghbtns.com/github-btn.html?user=kkomelin&repo=sui-dapp-kit-theme-creator&type=star&count=true&size=large"
+          src="https://ghbtns.com/github-btn.html?user=suiware&repo=sui-dapp-kit-theme-creator&type=star&count=true&size=large"
           width="140"
           height="30"
           title="Star on Github"
@@ -137,16 +137,16 @@ const IndexPage = observer(() => {
         <HeartIcon className="h-4 w-4" />
         <span>by</span>
         <a
-          href="https://github.com/kkomelin"
+          href="https://github.com/suiware"
           target="_blank"
           rel="noopener noreferrer"
           className="text-green-600 dark:text-green-300"
         >
-          @kkomelin
+          @suiware
         </a>
         <span>·</span>
         <a
-          href="https://github.com/kkomelin/sui-dapp-kit-theme-creator/issues/new"
+          href="https://github.com/suiware/sui-dapp-kit-theme-creator/issues/new"
           target="_blank"
           rel="noopener noreferrer"
           className="text-green-600 dark:text-green-300"
