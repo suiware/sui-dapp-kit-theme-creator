@@ -1,0 +1,20 @@
+name: Deploy to Firebase Hosting on Push
+on:
+  push:
+    branches:
+      - main
+permissions:
+  checks: write
+  contents: read
+  pull-requests: write
+jobs:
+  deploy_app:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pnpm run build
+      - uses: ./
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SUI_DAPP_KIT_THEME_CREATOR }}
+          projectId: sui-dapp-kit-theme-creator
