@@ -13,12 +13,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Deploy
-        uses: FirebaseExtended/action-hosting-deploy@v0
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           # target: your-target(optional if you have/need one)
-          entryPoint: "./"
+          # entryPoint: "./"
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SUI_DAPP_KIT_THEME_CREATOR }}
           # projectId: sui-dapp-kit-theme-creator
           channelId: live
