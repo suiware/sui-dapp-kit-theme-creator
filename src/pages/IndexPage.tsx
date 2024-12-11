@@ -137,7 +137,7 @@ const IndexPage = observer(() => {
         <HeartIcon className="h-4 w-4" />
         <span>by</span>
         <a
-          href="https://suiware.io"
+          href="https://suiware.io?utm_source=sui-dapp-kit-theme-creator"
           target="_blank"
           rel="noopener noreferrer"
           className="text-green-600 dark:text-green-300"
