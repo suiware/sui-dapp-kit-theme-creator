@@ -2,7 +2,7 @@ import { FC, PropsWithChildren } from 'react'
 
 const Layout: FC<PropsWithChildren> = ({ children }) => {
   return (
-    <div className="p-4 flex md:h-screen1 grow w-full flex-col items-center justify-center grow">
+    <div className="md:h-screen1 flex w-full grow flex-col items-center justify-center p-4">
       {children}
     </div>
   )
