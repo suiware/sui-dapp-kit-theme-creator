@@ -11,14 +11,15 @@ jobs:
   deploy_app:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+
       - name: Deploy
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           # target: your-target(optional if you have/need one)
           entryPoint: "./dist"
-          firebaseServiceAccount: '${{ env.FIREBASE_SERVICE_ACCOUNT }}'
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SUI_DAPP_KIT_THEME_CREATOR }}
+          # projectId: sui-dapp-kit-theme-creator
           # channelId: live
           projectId: '${{ env.PROJECT_ID }}'
