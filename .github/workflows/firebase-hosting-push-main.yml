@@ -19,6 +19,6 @@ jobs:
           # target: your-target(optional if you have/need one)
           # entryPoint: "./"
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_SUI_DAPP_KIT_THEME_CREATOR }}
-          # projectId: sui-dapp-kit-theme-creator
-          channelId: live
-          projectId: '${{ env.PROJECT_ID }}'
+          projectId: sui-dapp-kit-theme-creator
+          # channelId: live
+          # projectId: '${{ env.PROJECT_ID }}'
