@@ -137,12 +137,12 @@ const IndexPage = observer(() => {
         <HeartIcon className="h-4 w-4" />
         <span>by</span>
         <a
-          href="https://github.com/suiware"
+          href="https://suiware.io"
           target="_blank"
           rel="noopener noreferrer"
           className="text-green-600 dark:text-green-300"
         >
-          @suiware
+          Suiware
         </a>
         <span>·</span>
         <a
