@@ -37,7 +37,7 @@
     "@types/react-dom": "^19.0.2",
     "@types/stringify-object": "^4.0.5",
     "@typescript-eslint/eslint-plugin": "^8.18.0",
-    "@typescript-eslint/parser": "^8.18.0",
+    "@typescript-eslint/parser": "^8.18.2",
     "@vitejs/plugin-react-swc": "^3.7.2",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.16.0",
