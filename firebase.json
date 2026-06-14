@@ -7,13 +7,6 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "redirects": [
-      {
-        "source": "/:path*",
-        "destination": "https://sui-dapp-kit-theme-creator.suiware.io/:path",
-        "type": 301
-      }
-    ],
     "rewrites": [
       {
         "source": "**",
