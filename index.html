@@ -19,11 +19,13 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@suiware_" />
 
+    <!-- umami:start (stripped at build time when VITE_ENABLE_ANALYTICS !== "true") -->
     <script
       defer
       src="https://cloud.umami.is/script.js"
-      data-website-id="3b3d8dfe-2db7-4305-9852-cf6bc7504077"
+      data-website-id="%VITE_UMAMI_WEBSITE_ID%"
     ></script>
+    <!-- umami:end -->
   </head>
   <body>
     <div id="root"></div>
